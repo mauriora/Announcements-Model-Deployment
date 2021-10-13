@@ -1,0 +1,3 @@
+{
+  "cdnBasePath": "<!-- THIS FILE IS HERE SO gulp package-solution DOESN'T FAIL  -->"
+}
