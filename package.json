@@ -1,7 +1,7 @@
 {
   "name": "@mauriora/rateable-announcements-model-deployment",
   "description": "List to store acknowledged announcements and extended announcements content type",
-  "version": "0.0.20",
+  "version": "0.0.27",
   "private": true,
   "main": "lib/index.js",
   "author": {
@@ -18,16 +18,12 @@
     "node": ">=14.0.0"
   },
   "scripts": {
-    "initguids": "node generateNewGuidsResetVersions.js",
-    "build": "node incrementVersions.js && gulp clean && gulp package-solution --ship",
-    "clean": "gulp clean",
-    "test": "gulp test",
-    "serve": "gulp serve-deprecated"
+    "build": "incrementVersions ./release/manifests/RateableAnnouncementsModelDeployment.manifest.json && gulp clean && gulp package-solution --ship",
+    "clean": "gulp clean"
   },
   "dependencies": {},
   "devDependencies": {
-    "@microsoft/rush-stack-compiler-3.2": "^0.10.47",
-    "@microsoft/rush-stack-compiler-4.2": "^0.1.1",
+    "@mauriora/spfx-packaging": "0.0.1",
     "@microsoft/sp-build-web": "^1.12.1",
     "@microsoft/sp-module-interfaces": "^1.12.1",
     "@microsoft/sp-tslint-rules": "^1.12.1",
