@@ -24,7 +24,7 @@
   "dependencies": {},
   "devDependencies": {
     "@mauriora/spfx-packaging": "0.0.1",
-    "@microsoft/sp-build-web": "^1.12.1",
+    "@microsoft/sp-build-web": "1.12.1",
     "gulp": "^4.0.2"
   }
 }
