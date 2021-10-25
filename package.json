@@ -1,7 +1,7 @@
 {
-  "name": "@mauriora/rateable-announcements-model-deployment",
-  "description": "List to store acknowledged announcements and extended announcements content type",
-  "version": "0.0.27",
+  "name": "@mauriora/announcements-model-deployment",
+  "description": "List to store acknowledged announcements and extended announcements content type. Deploy this on one site per tenant",
+  "version": "0.1.2",
   "private": true,
   "main": "lib/index.js",
   "author": {

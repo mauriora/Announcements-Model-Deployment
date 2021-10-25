@@ -1,17 +1,17 @@
 {
     "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
     "solution": {
-        "name": "Rateable Announcements model deployment",
+        "name": "Announcements Bar model deployment",
         "id": "37f513cc-a12e-9434-14d6-48f364506b1d",
-        "version": "0.0.27.0",
+        "version": "0.1.2.0",
         "includeClientSideAssets": false,
         "skipFeatureDeployment": false,
         "features": [
             {
-                "title": "Rateable Announcements list and content type",
-                "description": "Install on the one site per tenant, that has the announcements list. This package contains the 'Acknowledged Annoncements' List and the Extended announcements content-type.",
+                "title": "Announcements Bar list and content type",
+                "description": "Install on the one site per tenant, that has the announcements list. This package contains the 'Acknowledged Annoncements' list and the 'Announcement Extended' content-type.",
                 "id": "e47f4564-f937-4e63-bb96-af6ef3a528dc",
-                "version": "0.0.27.0",
+                "version": "0.1.2.0",
                 "assets": {
                     "elementManifests": [
                         "acknowledged-announcements-elements.xml",
@@ -25,6 +25,6 @@
         ]
     },
     "paths": {
-        "zippedPackage": "solution/rateable-announcements-model-deployment.sppkg"
+        "zippedPackage": "solution/announcements-model-deployment.sppkg"
     }
 }
