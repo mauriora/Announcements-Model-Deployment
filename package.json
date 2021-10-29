@@ -1,7 +1,7 @@
 {
   "name": "@mauriora/announcements-model-deployment",
   "description": "List to store acknowledged announcements and extended announcements content type. Deploy this on one site per tenant",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "private": true,
   "main": "lib/index.js",
   "author": {
