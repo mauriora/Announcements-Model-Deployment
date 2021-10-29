@@ -4,7 +4,7 @@
     "alias": "Mauri-Ora-Rateable-Announcements-Model",
     "componentType": "Extension",
     "extensionType": "ApplicationCustomizer",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "manifestVersion": 2,
     "requiresCustomScript": false
 }
