@@ -14,11 +14,11 @@
                 "version": "0.1.18.0",
                 "assets": {
                     "elementManifests": [
-                        "../../../node_modules/@mauriora/model-announcement-extended/sharepoint/acknowledged-announcements-elements.xml",
-                        "../../../node_modules/@mauriora/model-announcement-extended/sharepoint/announcements-extended-content-type-elements.xml"
+                        "../../../shared/Model-Announcement-Extended/sharepoint/acknowledged-announcements-elements.xml",
+                        "../../../shared/Model-Announcement-Extended/sharepoint/announcements-extended-content-type-elements.xml"
                     ],
                     "elementFiles": [
-                        "../../../node_modules/@mauriora/model-announcement-extended/sharepoint/acknowledged-announcements-schema.xml"
+                        "../../../shared/Model-Announcement-Extended/sharepoint/acknowledged-announcements-schema.xml"
                     ]
                 }
             }
