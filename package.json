@@ -26,7 +26,7 @@
     "clean": "gulp clean"
   },
   "devDependencies": {
-    "@mauriora/model-announcement-extended": "0.0.3",
+    "@mauriora/model-announcement-extended": "^0.0.11",
     "@mauriora/spfx-packaging": "^0.0.17",
     "@microsoft/sp-build-web": "1.12.1",
     "gulp": "^4.0.2"
