@@ -1,7 +1,7 @@
 {
   "name": "@mauriora/announcements-model-deployment",
   "description": "List to store acknowledged announcements and extended announcements content type. Deploy this on one site per tenant",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "private": true,
   "main": "lib/index.js",
@@ -26,8 +26,8 @@
     "clean": "gulp clean"
   },
   "devDependencies": {
-    "@mauriora/model-announcement-extended": "^0.1.0",
-    "@mauriora/spfx-packaging": "^0.1.0",
+    "@mauriora/model-announcement-extended": "^0.2.0",
+    "@mauriora/spfx-packaging": "^0.2.0",
     "@microsoft/sp-build-web": "1.14.0",
     "gulp": "^4.0.2"
   }
