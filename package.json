@@ -23,6 +23,7 @@
     "prepare": "yarn build",
     "publish": "publishPackage git",
     "build": "createPackage --no-bundle --ship",
+    "rebuild": "createPackage --no-bundle --ship",
     "clean": "gulp clean"
   },
   "devDependencies": {
